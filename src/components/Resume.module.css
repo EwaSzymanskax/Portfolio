@@ -1,0 +1,27 @@
+.containerResume{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonResume{
+    font-size: 27px;
+    line-height: 60px;
+    margin: auto auto auto auto;
+    box-shadow: 10px 10px 60px 10px #B7AB9F; 
+
+}
+@media (min-width: 768px){
+    .buttonResume{
+        font-size: 35px;
+        line-height: 90px;
+    }
+}
+@media (min-width: 1920px){
+    .buttonResume{
+        font-size: 70px;
+        line-height: 150px;
+    }
+}

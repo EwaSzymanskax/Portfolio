@@ -1,0 +1,162 @@
+.projectsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1Project{
+    font-size: 27px;
+    margin-bottom: 20px;
+
+}
+.card{
+    background-color: #FFFAFA ;
+    box-shadow: 0 2px 8px #B7AB9F;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.h2Projects{
+    font-size: 23px;
+    margin: 20px auto 20px auto;
+}
+.pProjects {
+    font-size: 17px;
+    margin: auto 10px 20px 10px;
+    display: flex;
+    text-align: center;
+
+}
+
+.imgProjects {
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: #F9FAFF;
+  width: 250px;
+  height: 140px;
+  
+}
+
+@media (min-width: 768px){
+    .h1Project{
+        font-size: 43px;
+        margin-bottom: 60px;
+    
+    }
+    .card{
+        background-color:  #FFFAFA ;
+        box-shadow: 0 2px 8px #B7AB9F;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1366px){
+    .h1Project{
+        font-size: 37px;
+        margin-bottom: 30px;
+    
+    }
+    .card{
+        box-shadow: 0 2px 8px #B7AB9F;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+        width: 400px;
+
+    }
+    .projectsBox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        flex-wrap: wrap;
+    }
+    
+    .imgProjects {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 140px;  
+      }
+
+}
+@media (min-width: 1440px){
+    .projectsContainer{
+        height: 100vh;
+    }
+    .h1Project{
+        font-size: 37px;
+        margin-bottom: 40px;
+    
+    }
+    .card{
+        margin-bottom: 60px;
+    }
+}
+@media (min-width: 1920px){
+    .card{
+        width: 530px;
+    }
+    .h1Project{
+        font-size: 47px;
+        margin: 50px auto 50px auto;
+    }
+    .h2Projects{
+        font-size: 35px;
+        margin: 20px auto 20px auto;
+    }
+    .pProjects {
+        font-size: 26px;
+        margin: auto 20px 40px 20px;
+    
+    }
+    
+    .imgProjects {
+      margin-bottom: 40px;
+      width: 300px;
+      height: 170px;
+      
+    }
+}
+@media (min-width: 2560px){
+    .card{
+        width: 700px;
+    }
+    .h1Project{
+        font-size: 58px;
+    }
+    .h2Projects{
+        font-size: 45px;
+        margin: 30px auto 30px auto;
+    }
+    .pProjects {
+        font-size: 35px;
+        margin: auto 40px 30px 40px;
+    
+    }
+    
+    .imgProjects {
+      margin-bottom: 30px;
+      width: 330px;
+      height: 200px;
+      
+    }
+}
