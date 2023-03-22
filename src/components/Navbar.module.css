@@ -29,6 +29,12 @@
 .ul{
   display: none;
 }
+.span{
+  justify-content: start;
+  align-self: flex-start;
+  position: absolute;
+
+}
 
 
 @media (min-width: 768px){
@@ -65,6 +71,15 @@
     font-size: 30px;
     color: #28293E;
    }
+
+   a:hover{
+    text-decoration: underline solid #FFD700 3px;
+    text-underline-offset: 0.4em;
+    color: #FFD700;
+   }
+   /* li{
+    text-decoration: none;
+   } */
 
   .icon {
     display: none;

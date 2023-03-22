@@ -29,24 +29,71 @@ a{
     text-decoration: none;
     font-size: 20px;
     color: #28293E;
+
 }
 .li{
     padding: 20px;
     
 }
+.scroll{
+    display: flex;
+    width: 200px;         
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:#28293E;
+    border: 1px solid #28293E;
+    line-height: 40px;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+.aContact{
+    color: white;
+    font-size: 18px;
+
+}
+@media (min-width: 375px){
+    .aContact{
+        color: white;
+        font-size: 14px;
+    }
+    .scroll{
+        display: flex;
+        width: 150px;     
+        line-height: 33px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+    
+    }
+
+}
+
+
 
 @media (min-width: 768px){
     .h1Contact{
-        font-size: 33px;
+        font-size: 35px;
         margin-bottom: 20px;
     }
     .h2Contact{
-        font-size: 27px;
+        font-size: 30px;
+    }
+    .aContact{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .scroll{
+        width: 200px;         
+        line-height: 50px;
+        margin-top: 150px;
     }
     a{
-        text-decoration: none;
-        font-size: 27px;
+        font-size: 30px;
     }
+    
+
 }
 @media (min-width: 1920px){
     .h1Contact{
@@ -56,8 +103,20 @@ a{
     .h2Contact{
         font-size: 44px;
     }
+
     a{
         text-decoration: none;
         font-size: 40px;
     }
+    .scroll{
+        width: 300px;         
+        border-radius: 6px;
+        line-height: 60px;
+        margin-top: 150px;
+    }
+    .aContact{
+        text-decoration: none;
+        font-size: 30px;
+    }
+
 }

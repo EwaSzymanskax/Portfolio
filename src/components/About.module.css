@@ -49,15 +49,17 @@ button {
         display: flex;
         width: 200px;         
         border-radius: 6px;
-        font-size: 14px;
         text-transform: uppercase;
         font-weight: bold;
         background-color:#28293E;
-        color: white;
         border: 1px solid #28293E;
         line-height: 48px;
         margin: 7px auto 51px 15px;
         justify-content: center;
+}
+.aAbout {
+    color: white;
+    font-size: 14px;
 }
 
 @media (min-width: 768px){
@@ -104,6 +106,9 @@ button {
         border-radius: 6px;
         font-size: 20px;
         line-height: 50px;
+    }
+    .aAbout {
+        font-size: 20px;
     }
 } 
 
@@ -166,12 +171,11 @@ button {
 
 @media (min-width: 1920px) {
     img {
-        margin: 0px auto 10px auto;
         width: 550px;
 }
 
 .aboutH1 {
-    margin-top: 120px;
+    margin-top: 10px;
     font-size: 55px;
     padding-bottom: 35px;
 }
@@ -191,8 +195,10 @@ button {
 button {
     margin: 7px auto 105px auto;
     width: 400px; 
-    font-size: 30px;
     line-height: 65px;
+}
+.aAbout {
+    font-size: 30px;
 }
 }
 
@@ -222,10 +228,11 @@ button {
 }
 button {
     margin: 7px auto 105px auto;
-    width: 530px; 
-    font-size: 38px;
+    width: 530px;
     line-height: 85px;
 }
-
+.aAbout {
+    font-size: 38px;
+}
 
 }

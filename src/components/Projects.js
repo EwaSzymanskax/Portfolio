@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from "./Projects.module.css";
 import portfolioTemplate from '../image/portfolioTemplate.png';
 import ReflexGame from '../image/ReflexGame.png';
@@ -7,11 +7,15 @@ import ExpensesList from '../image/ExpensesList.png';
 import TicTacToe from '../image/TicTacToe.png';
 
 function Projects(){
+    const [hover, setHover] = useState(false);
+
     return(
     <div className={style.projectsContainer}>
+    <span id="projects" className={`style.span + ${hover ? ":hover" : ""}`}></span>
     <h1 className={style.h1Project}>Projects:</h1>
-    <div className={style.projectsBox}>
-        <div className={style.card}>
+    <div className={style.projectsBox} onMouseEnter={()=> setHover(true)}
+        onMouseLeave={()=> setHover(false)}>
+        <div className={style.card} >
             <div className={style.aboutProject}>
                 <h2  className={style.h2Projects}>Portfolio Template</h2>
                 <p className={style.pProjects}>A responsive portfolio website created based on Figma design.</p>

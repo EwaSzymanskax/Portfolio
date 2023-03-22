@@ -10,7 +10,7 @@ function About() {
             <h1 className={style.aboutH1}>Ewa Szymańska</h1>
             <h2 className={style.aboutH2}>Frontend developer</h2>
             <p className={style.aboutP}>Ready for continue expanding my JavaScript knowledge into perfecting accessibility and responsive design. </p>    
-          <button>Check my projects</button>           
+          <button><a href="#projects" className={style.aAbout}>Check my projects</a></button>           
           </div>
           <img src={img} alt="foto"></img>
  
