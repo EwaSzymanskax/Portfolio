@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/EwaSzymanskax/Portfolio/static/css/main.78af14e1.css",
-    "main.js": "/EwaSzymanskax/Portfolio/static/js/main.ffccf770.js",
-    "static/js/787.c1112931.chunk.js": "/EwaSzymanskax/Portfolio/static/js/787.c1112931.chunk.js",
-    "static/media/image2.png": "/EwaSzymanskax/Portfolio/static/media/image2.1afcf1809eed23d266b4.png",
-    "static/media/portfolioTemplate.png": "/EwaSzymanskax/Portfolio/static/media/portfolioTemplate.91cb48338fccf9ba772f.png",
-    "static/media/TicTacToe.png": "/EwaSzymanskax/Portfolio/static/media/TicTacToe.0b388a41aea75b730036.png",
-    "static/media/ListOfProducts.png": "/EwaSzymanskax/Portfolio/static/media/ListOfProducts.05a10c6516baeecad684.png",
-    "static/media/ExpensesList.png": "/EwaSzymanskax/Portfolio/static/media/ExpensesList.194ffb1b6f6297f22b19.png",
-    "static/media/ReflexGame.png": "/EwaSzymanskax/Portfolio/static/media/ReflexGame.c2926bf334038b80c167.png",
-    "index.html": "/EwaSzymanskax/Portfolio/index.html",
-    "main.78af14e1.css.map": "/EwaSzymanskax/Portfolio/static/css/main.78af14e1.css.map",
-    "main.ffccf770.js.map": "/EwaSzymanskax/Portfolio/static/js/main.ffccf770.js.map",
-    "787.c1112931.chunk.js.map": "/EwaSzymanskax/Portfolio/static/js/787.c1112931.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.78af14e1.css",
+    "main.js": "/Portfolio/static/js/main.bc25020a.js",
+    "static/js/787.c1112931.chunk.js": "/Portfolio/static/js/787.c1112931.chunk.js",
+    "static/media/image2.png": "/Portfolio/static/media/image2.1afcf1809eed23d266b4.png",
+    "static/media/portfolioTemplate.png": "/Portfolio/static/media/portfolioTemplate.91cb48338fccf9ba772f.png",
+    "static/media/TicTacToe.png": "/Portfolio/static/media/TicTacToe.0b388a41aea75b730036.png",
+    "static/media/ListOfProducts.png": "/Portfolio/static/media/ListOfProducts.05a10c6516baeecad684.png",
+    "static/media/ExpensesList.png": "/Portfolio/static/media/ExpensesList.194ffb1b6f6297f22b19.png",
+    "static/media/ReflexGame.png": "/Portfolio/static/media/ReflexGame.c2926bf334038b80c167.png",
+    "index.html": "/Portfolio/index.html",
+    "main.78af14e1.css.map": "/Portfolio/static/css/main.78af14e1.css.map",
+    "main.bc25020a.js.map": "/Portfolio/static/js/main.bc25020a.js.map",
+    "787.c1112931.chunk.js.map": "/Portfolio/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78af14e1.css",
-    "static/js/main.ffccf770.js"
+    "static/js/main.bc25020a.js"
   ]
 }
