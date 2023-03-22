@@ -1,34 +1,35 @@
-.containerResume{
+.containerResume {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.buttonResume{
+.buttonResume {
     margin: auto auto auto auto;
     box-shadow: 10px 10px 60px 10px #B7AB9F; 
-
 }
-.aResume{
+
+.aResume {
     color: white;
     font-size: 27px;
     line-height: 60px;
 }
-.resume{
+
+.resume {
     justify-content: start;
     align-self: flex-start;
-
 }
-@media (min-width: 768px){
+
+@media (min-width: 768px) {
     .aResume{
         font-size: 35px;
         line-height: 90px;
     }
 }
-@media (min-width: 1920px){
-    .aResume{
+
+@media (min-width: 1920px) {
+    .aResume {
         font-size: 70px;
         line-height: 150px;
     }

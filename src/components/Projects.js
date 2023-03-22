@@ -24,7 +24,6 @@ function Projects(){
             <img className={style.imgProjects} src={portfolioTemplate} alt="portfolio"/> 
             </a>
         </div>
-
         <div className={style.card}>
             <div className={style.aboutProject}>
                 <h2 className={style.h2Projects}>Reflex Game</h2>
@@ -37,9 +36,9 @@ function Projects(){
         <div  className={style.card}>
             <div className={style.aboutProject}>
                 <h2  className={style.h2Projects}>List of products</h2>
-                <p className={style.pProjects}>The app returns a search results that match the parameters specified in the API.</p>
+                <p className={style.pProjects}>The app returns search results that match the parameters specified in the API.</p>
                 </div>
-                <a href="https://ewaszymanskax.github.io/TicTacToeGame/" >
+                <a href= "https://ewaszymanskax.github.io/ListOfProducts/" >
                 <img className={style.imgProjects} src={ListOfProducts} alt="app"/>
                 </a>
         </div>
@@ -64,10 +63,6 @@ function Projects(){
     </div>
     </div>
     )
-    
-
 };
-
-
 
 export default Projects;

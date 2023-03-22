@@ -1,22 +1,22 @@
-.containerContact{
+.containerContact {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background: linear-gradient(to  right bottom, white 30%, #FFFAFA 50%, #B7AB9F 100%)
-
 }
-.h1Contact{
+
+.h1Contact {
     font-size: 24px;
-    margin-bottom: 20px;
-
-    
+    margin-bottom: 20px; 
 }
-.h2Contact{
+
+.h2Contact {
     font-size: 20px;
 }
-.ulContact{
+
+.ulContact {
     display: flex;
     list-style: none;
     display: flex;
@@ -25,17 +25,18 @@
     align-content: space-between;
     text-decoration: none;
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 20px;
     color: #28293E;
+}
 
-}
-.li{
+.li {
     padding: 20px;
-    
 }
-.scroll{
+
+.scroll {
     display: flex;
     width: 200px;         
     border-radius: 6px;
@@ -45,78 +46,81 @@ a{
     border: 1px solid #28293E;
     line-height: 40px;
     justify-content: center;
-    margin-top: 90px;
-    
+    align-items: center;
+    margin: 90px auto 51px auto;  
 }
-.aContact{
+
+.aContact {
     color: white;
     font-size: 18px;
-
 }
-@media (min-width: 375px){
-    .aContact{
+
+@media (min-width: 375px) {
+    .aContact {
         color: white;
         font-size: 14px;
     }
-    .scroll{
+
+    .scroll {
         display: flex;
         width: 150px;     
         line-height: 33px;
         justify-content: center;
         align-items: center;
         margin-top: 90px;
-    
     }
-
 }
-
-
-
-@media (min-width: 768px){
-    .h1Contact{
+ 
+@media (min-width: 768px) {
+    .h1Contact {
         font-size: 35px;
         margin-bottom: 20px;
-    }
-    .h2Contact{
+    } 
+
+    .h2Contact {
         font-size: 30px;
-    }
-    .aContact{
+    } 
+
+    .aContact {
         text-decoration: none;
         font-size: 20px;
     }
-    .scroll{
+
+    .scroll {
         width: 200px;         
         line-height: 50px;
         margin-top: 150px;
     }
-    a{
+
+    a {
         font-size: 30px;
     }
-    
-
 }
-@media (min-width: 1920px){
-    .h1Contact{
+
+@media (min-width: 1920px) {
+    .h1Contact {
         font-size: 50px;
         margin-bottom: 20px;
     }
-    .h2Contact{
+
+    .h2Contact {
         font-size: 44px;
     }
 
-    a{
+    a {
         text-decoration: none;
         font-size: 40px;
     }
-    .scroll{
+
+    .scroll {
         width: 300px;         
         border-radius: 6px;
         line-height: 60px;
         margin-top: 150px;
     }
-    .aContact{
+
+    .aContact {
         text-decoration: none;
         font-size: 30px;
     }
-
 }

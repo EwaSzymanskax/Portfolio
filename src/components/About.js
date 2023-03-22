@@ -13,13 +13,8 @@ function About() {
           <button><a href="#projects" className={style.aAbout}>Check my projects</a></button>           
           </div>
           <img src={img} alt="foto"></img>
- 
         </section>
     )
-    
-
 };
-
-
 
 export default About;

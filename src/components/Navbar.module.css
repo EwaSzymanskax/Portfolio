@@ -5,12 +5,12 @@
 }
 
 .navbar {
-    width: 100%;
-    padding: 16px 23px 35px 23px;
-    display: flex;
-    justify-content: flex-end;
+  width: 100%;
+  padding: 16px 23px 35px 23px;
+  display: flex;
+  justify-content: flex-end;
 
-  }
+}
 
 .icon {
   color: #25282B;
@@ -22,22 +22,40 @@
   text-align: center;
   border: 3px solid #25282B;
   margin: 10px auto auto auto;
-
-
 }
 
-.ul{
-  display: none;
-}
-.span{
+.span {
   justify-content: start;
   align-self: flex-start;
   position: absolute;
-
 }
 
+.ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  width: 300px;
+  height: 32px;
+  display: flex;
+  padding-top: 16px;
+  justify-content: space-around;
+  text-decoration: none;
+}
 
-@media (min-width: 768px){
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #28293E;
+ }
+
+
+ a:hover {
+  text-decoration: underline solid #FFD700 3px;
+  text-underline-offset: 0.4em;
+  color: #FFD700;
+ }
+
+@media (min-width: 768px) {
   .icon {
     margin: 10px auto auto 680px;
     width: 40px;
@@ -49,78 +67,75 @@
   }
 }
 
-@media (min-width: 1366px){
+@media (min-width: 1366px) {
   .container {
     display: flex;
     margin: 0px 50px 20px auto;
     justify-content: flex-end;
-
   }
-  .ul{
+
+  .ul {
     display: flex;
     list-style: none;
-        width: 515px;
-        height: 32px;
-        display: flex;
-        padding-top: 16px;
-        justify-content: space-between;
-        text-decoration: none;
+    width: 515px;
+    height: 32px;
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-between;
+    text-decoration: none;
   }
-   a{
+
+  a {
     text-decoration: none;
     font-size: 30px;
     color: #28293E;
    }
 
-   a:hover{
+  a:hover {
     text-decoration: underline solid #FFD700 3px;
     text-underline-offset: 0.4em;
     color: #FFD700;
    }
-   /* li{
-    text-decoration: none;
-   } */
-
+  
   .icon {
     display: none;
   }
-
 }
-@media (min-width: 1440px){
+
+@media (min-width: 1440px) {
   .ul{
     margin-right: 20px;
   }
-
 }
-@media (min-width: 1600px){
+
+@media (min-width: 1600px) {
   .ul {
     margin-right: 55px;
   }
 }
+
 @media (min-width: 1920px) {
-  .ul{
-   
-        width: 715px;
-        height: 42px;
-        display: flex;
-        margin-right: 110px;
-  }
-  a{
-    font-size: 40px;
+  .ul {
+    width: 715px;
+    height: 42px;
+    display: flex;
+    margin-right: 110px;
   }
 
+  a {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 2560px) {
-  .ul{
-   
+  .ul {
     width: 915px;
     height: 42px;
     display: flex;
     margin-right: 230px;
-}
-a{
-font-size: 58px;
-}
+  }
 
+  a {
+    font-size: 58px;
+  }
 }

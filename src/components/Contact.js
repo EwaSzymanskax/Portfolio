@@ -13,13 +13,8 @@ function Contact(){
                 <li className={style.li}><a href="/#">LinkedIn</a></li> 
             </ul>
             <button className={style.scroll}><a href="#home" className={style.aContact}>Scroll to top</a></button>
-
         </div>
     )
-    
-
 };
-
-
 
 export default Contact;
