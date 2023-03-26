@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9324b683.css",
-    "main.js": "/Portfolio/static/js/main.d447a4d9.js",
+    "main.css": "/Portfolio/static/css/main.f993fee2.css",
+    "main.js": "/Portfolio/static/js/main.4718bf60.js",
     "static/js/787.c1112931.chunk.js": "/Portfolio/static/js/787.c1112931.chunk.js",
+    "static/media/EwaSzymańskaCV.pdf": "/Portfolio/static/media/EwaSzymańskaCV.55da3eb7063e86c1b816.pdf",
     "static/media/image2.png": "/Portfolio/static/media/image2.1afcf1809eed23d266b4.png",
     "static/media/portfolioTemplate.png": "/Portfolio/static/media/portfolioTemplate.91cb48338fccf9ba772f.png",
     "static/media/TicTacToe.png": "/Portfolio/static/media/TicTacToe.0b388a41aea75b730036.png",
@@ -10,12 +11,12 @@
     "static/media/ExpensesList.png": "/Portfolio/static/media/ExpensesList.194ffb1b6f6297f22b19.png",
     "static/media/ReflexGame.png": "/Portfolio/static/media/ReflexGame.c2926bf334038b80c167.png",
     "index.html": "/Portfolio/index.html",
-    "main.9324b683.css.map": "/Portfolio/static/css/main.9324b683.css.map",
-    "main.d447a4d9.js.map": "/Portfolio/static/js/main.d447a4d9.js.map",
+    "main.f993fee2.css.map": "/Portfolio/static/css/main.f993fee2.css.map",
+    "main.4718bf60.js.map": "/Portfolio/static/js/main.4718bf60.js.map",
     "787.c1112931.chunk.js.map": "/Portfolio/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9324b683.css",
-    "static/js/main.d447a4d9.js"
+    "static/css/main.f993fee2.css",
+    "static/js/main.4718bf60.js"
   ]
 }
