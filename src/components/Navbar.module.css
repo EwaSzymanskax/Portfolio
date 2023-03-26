@@ -65,6 +65,33 @@ a {
   .navbar {
     padding: 46px 23px 35px 23px;
   }
+  .ul {
+    display: flex;
+    list-style: none;
+    width: 715px;
+    height: 32px;
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #28293E;
+   }
+
+  a:hover {
+    text-decoration: underline solid #FFD700 3px;
+    text-underline-offset: 0.4em;
+    color: #FFD700;
+   }
+  
+  .icon {
+    display: none;
+  }
 }
 
 @media (min-width: 1366px) {

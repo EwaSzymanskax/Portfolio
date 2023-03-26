@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import style from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars }from '@fortawesome/free-solid-svg-icons';
@@ -7,7 +7,20 @@ import {faBars }from '@fortawesome/free-solid-svg-icons';
 function Navbar(){
 
   const [hover, setHover] = useState(false);
-  const [toggle, setToggle] = useState (true);
+  const [toggle, setToggle] = useState (false);
+  
+  useEffect(()=>{    
+    function handleResize() {
+      const width = window.innerWidth;
+      if(width >= 768) {
+        setToggle(true); 
+      
+      }
+}
+  handleResize();
+    window.addEventListener('resize', handleResize);
+    return  () => window.removeEventListener("resize", handleResize);
+  },[])
 
     return (
         <nav className={style.navbar}  onMouseEnter={()=> setHover(true)}
