@@ -19,8 +19,9 @@ function Navbar(){
 }
   handleResize();
     window.addEventListener('resize', handleResize);
-    return  () => window.removeEventListener("resize", handleResize);
-  },[])
+    handleResize();
+    return  () => window.removeEventListener('resize', handleResize);
+  },[]);
 
     return (
         <nav className={style.navbar}  onMouseEnter={()=> setHover(true)}

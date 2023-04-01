@@ -21,7 +21,9 @@
   font-size: 10px;
   text-align: center;
   border: 3px solid #25282B;
-  margin: 10px auto auto auto;
+  margin: 10px 10px auto auto;
+  display: flex;
+
 }
 
 .span {
