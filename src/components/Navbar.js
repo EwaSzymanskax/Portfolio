@@ -30,10 +30,10 @@ function Navbar(){
           <div className={style.header}>
           <FontAwesomeIcon className={style.icon} icon={faBars} onClick={()=> setToggle(!toggle)}/>
          {toggle && (<ul className={style.ul} >
-            <li className={`style.li + ${hover ? ":hover" : ""}`}><a href="/#home">Home</a></li>
-            <li className={style.li}><a href="/#projects">Projects</a></li> 
-            <li className={style.li}><a href="/#resume">Resume</a></li>
-            <li className={style.li}><a href="/#contact">Contact</a></li>
+            <li className={`style.li + ${hover ? ":hover" : ""}`}><a href="/Portfolio/#home">Home</a></li>
+            <li className={style.li}><a href="/Portfolio/#projects">Projects</a></li> 
+            <li className={style.li}><a href="/Portfolio/#resume">Resume</a></li>
+            <li className={style.li}><a href="/Portfolio/#contact">Contact</a></li>
           </ul>
          )}
           </div>
