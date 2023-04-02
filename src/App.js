@@ -8,10 +8,11 @@ import style from './App.module.css';
 
 
 function App() {
+
   return (
     <>
     <main className={style.main}>
-     <Navbar />
+      <Navbar />
       <About />
       <Projects />
       <Resume />
