@@ -15,11 +15,12 @@ function Navbar(){
       const width = window.innerWidth;
       if(width >= 768) {
         setToggle(true); 
-      
+      } else {
+        setToggle(false);
       }
 }
-  handleResize();
     window.addEventListener('resize', handleResize);
+    handleResize();
     return  () => window.removeEventListener('resize', handleResize);
 
   },[]);
