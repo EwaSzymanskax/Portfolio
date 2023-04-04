@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import style from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars }from '@fortawesome/free-solid-svg-icons';
+import { faX } from '@fortawesome/free-solid-svg-icons';
 
 
 function Navbar(){
@@ -20,7 +21,9 @@ function Navbar(){
   handleResize();
     window.addEventListener('resize', handleResize);
     return  () => window.removeEventListener('resize', handleResize);
+
   },[]);
+  
 
     return (
         <nav className={style.navbar}  onMouseEnter={()=> setHover(true)}
@@ -28,7 +31,8 @@ function Navbar(){
         <span id="home" className={style.span}></span>
         <div className={style.container}>
           <div className={style.header}>
-          <FontAwesomeIcon className={style.icon} icon={faBars} onClick={()=> setToggle(!toggle)}/>
+          {!toggle && <FontAwesomeIcon className={style.icon} icon={faBars} onClick={()=> setToggle(!toggle)}/>}
+          {toggle && <FontAwesomeIcon className={style.iconX} icon={faX} onClick={()=> setToggle(!toggle)}/>}
          {toggle && (<ul className={style.ul} >
             <li className={`style.li + ${hover ? ":hover" : ""}`}><a href="/Portfolio/#home">Home</a></li>
             <li className={style.li}><a href="/Portfolio/#projects">Projects</a></li> 
