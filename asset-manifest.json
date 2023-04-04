@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.570af365.css",
-    "main.js": "/Portfolio/static/js/main.8cd57a18.js",
+    "main.js": "/Portfolio/static/js/main.ad3f33e1.js",
     "static/js/787.c1112931.chunk.js": "/Portfolio/static/js/787.c1112931.chunk.js",
     "static/media/EwaSzymańskaCV.pdf": "/Portfolio/static/media/EwaSzymańskaCV.55da3eb7063e86c1b816.pdf",
     "static/media/image2.png": "/Portfolio/static/media/image2.1afcf1809eed23d266b4.png",
@@ -12,11 +12,11 @@
     "static/media/ReflexGame.png": "/Portfolio/static/media/ReflexGame.c2926bf334038b80c167.png",
     "index.html": "/Portfolio/index.html",
     "main.570af365.css.map": "/Portfolio/static/css/main.570af365.css.map",
-    "main.8cd57a18.js.map": "/Portfolio/static/js/main.8cd57a18.js.map",
+    "main.ad3f33e1.js.map": "/Portfolio/static/js/main.ad3f33e1.js.map",
     "787.c1112931.chunk.js.map": "/Portfolio/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.570af365.css",
-    "static/js/main.8cd57a18.js"
+    "static/js/main.ad3f33e1.js"
   ]
 }
