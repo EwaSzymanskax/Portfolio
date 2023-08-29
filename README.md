@@ -1,6 +1,6 @@
 # Portfolio
 > My personal portfolio. 
-> Live demo [_here_] https://ewaszymanskax.github.io/Portfolio/
+> Live demo: https://ewaszymanskax.github.io/Portfolio/
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
